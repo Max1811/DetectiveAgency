@@ -1,0 +1,4 @@
+/.vs/**
+/DetectiveAgency/bin/**
+/DetectiveAgency/obj/**
+/DetectiveAgency/wwwroot/css/*.css

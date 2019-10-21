@@ -1,0 +1,24 @@
+﻿@import "../_variables";
+
+
+.MapPage-container {
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+
+    .map-container {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    h2 {
+        color: $linkColor;
+        font-size: 65px;
+        font-weight: 800;
+        margin-bottom: 40px;
+        padding: 0 5%;
+    }
+}
+

@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section styles {
+
+}
+
+    <div class="db-add-form">
+        <form asp-action="CreateUser" asp-controller="Home" method="post">
+            <input type="text" name="Name" placeholder="Name:" />
+            <input type="text" name="Age" placeholder="Age:" />
+            <input type="submit" name="Post"/>
+        </form>
+        
+    </div>
+
+@section scripts {
+
+}
